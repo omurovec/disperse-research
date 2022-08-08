@@ -1,31 +1,7 @@
-# Disperse Reseach
+# _Fork of_ Disperse Reseach _for zkSync testnet_
 
-The benchmark setup is built from low-level primitives offered by `py-evm`.
-- Relies solely on the virtual machine and an in-memory state database. Mining and blockchain components have been removed.
-- It provides the tools to make tests against different forks trivial.
-- Utils to generate deterministic keypairs, manipulate storage and more.
-- Effective gas estimation using binary search.
+## Info
 
-Read the [research paper](https://github.com/banteg/disperse-reseach/blob/master/paper/disperse.pdf).
+This is a fork of the popular [disperse.app](https://disperse.app) contracts to deploy to zksync 2.0 testnet
 
-## Installation
-
-Requires Python 3.7, install using:
-```
-pipenv install
-```
-
-To run the full suite:
-```
-pipenv run benchmark
-```
-
-To install the tools needed to compile the contracts, run:
-```
-yarn
-```
-
-To compile the contracts:
-```
-npx buidler compile
-```
+The address of the deployment is [0xB430EC1e046005957e19293b838DCD1Cd1a83f9a](https://zksync2-testnet.zkscan.io/address/0xB430EC1e046005957e19293b838DCD1Cd1a83f9a)

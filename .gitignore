@@ -4,3 +4,7 @@ cache
 node_modules
 old
 paper/.texpadtmp
+
+cache-zk/
+artifacts-zk/
+.env
